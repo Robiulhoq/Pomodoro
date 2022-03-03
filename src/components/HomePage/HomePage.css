@@ -1,0 +1,291 @@
+.top_navbar{
+    padding: 15px;
+}
+.logo_container > a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 3px;
+}
+.logo_icon{
+    width: 15px;
+    height: 15px;
+    color: white;
+}
+.email_text{
+    color: white;
+}
+.logo_container{
+
+}
+.btn_bg{
+    color: #A2E7E2;
+    /* background-color: #E0746F; */
+    margin-right: 8px;
+}
+.btn_light_bg{
+    background-color: lightgray
+}
+.time_box{
+    background-color: #232625;
+    width: 50%;
+    min-height: 300px;
+}
+.btn_box> button{
+    color: white;
+    font-weight: 400;
+}
+.time> h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+.reset{
+    margin-left: 30px;
+    height: 30px;
+    width: 30px;
+}
+.c_white{
+    color: white;
+}
+.learge_btn{
+    width: 225px;
+    height: 50px;
+    background-color: white;
+    color: #232625;
+    font-weight: 800;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 5px solid lightgray;
+    border-right: 3px solid lightgray;
+}
+.learge_btn_close{
+    width: 225px;
+    height: 50px;
+    background-color: white;
+    color: #DD6662;
+    font-weight: 800;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.task_head{
+    width: 50%;
+    height: 125px;
+}
+.underline{
+    height: 3px;
+    background-color: white;
+}
+.underline_two{
+    height: 2px;
+    background-color: darkgray;
+}
+.underline_three{
+    height: 2px;
+    background-color: lightgray;
+}
+.add_task_list{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+.add_tasK_button_container{
+    margin-left: 25%;
+}
+.add_task_btn{
+    width: 100%;
+    height: 60px;
+    border: 5px dotted lightgray;
+    background-color: #232625;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+.arrow_icon{
+    height: 10px;
+    width: 10px;
+}
+/* .setting_pupup_box{
+    width: 400px;
+    height: 500px;
+} */
+.setting_popup{
+    width: 450px;
+    background-color: #232625;
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Arial Rounded MT;
+}
+.setting_popup> h4{
+    font-size: 20px;
+}
+.light_gray{
+    color: #cccccc;
+}
+.setting_input{
+    width: 55px;
+    margin-left: 20px;
+    background-color: #EFEFEF;
+    color: black;
+    border: none;
+    border-radius: 3px;
+}
+.task_head_active{
+    background-color: #00A99D;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #363938;
+  }
+  h6{
+      color: #A2E7E2;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .btn_save{
+      background-color: #A2E7E2;
+      color: black;
+  }
+  .btn:hover{
+      color: white !important
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+.option_input{
+    width: 130px;
+}  
+.add_task_form{
+    width: 500px;
+    height: 275px;
+    background-color: white;
+    border-radius: 5px;
+}
+.add_task_input{
+    width: 450px;
+    border: none;
+    margin: 30px 5px 0px 25px;
+    height: 30px;
+    font-size: 20px;
+}
+input:focus{
+    border: 1px solid white;
+    border-color: none;
+    /* background-color: red; */
+}
+.increment_field> button{
+    margin-left: 10px;
+    /* padding-left: 25px; */
+}
+.increment_btn{
+    border: 2px solid lightgray;
+}
+.submit_field{
+    
+    height: 60px;
+    background-color: lightgray;
+}
+.submit_field> button{
+    margin: 10px;
+}
+/* login page css */
+.login_logo_container{
+    width: auto;
+    height: 100px;
+}
+.login_logo_container> h2{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+.login_logo{
+    height: auto;
+    width: 50px;
+}
+.login_form_container{
+    background-color: #232625;
+    /* margin-left: 30%; */
+    /* margin-right: 30%; */
+    padding: 20px;
+    border-radius: 15px;
+}
+.google_btn{
+    background-color: #363938;
+    width: 3in;
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    border-left: 1px solid lightgray;
+    font-weight: 700;
+    color: darkgray;
+}
+.google_icon{
+    width: 20px;
+}
+.label{
+    color: lightgray;
+}
+.login_from{
+    background-color: #363938;
+}
+.login_container{
+    height: 700px;
+    background-color: #1A1E1D;
+}
+:link{
+    text-decoration: none;
+}

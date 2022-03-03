@@ -1,0 +1,27 @@
+.report{
+    background-color: #1A1E1D;
+}
+.report_btn_box{
+    margin: 30px;
+    
+}
+.report_btn{
+    background-color: #363938;
+    margin: 15px;
+    color: cadetblue;
+}
+.report_btn:hover{
+    background-color: cadetblue;
+}
+.focus_hours> h6{
+    margin-left: 30px;
+}
+.report{
+    color: turquoise;
+}
+th{
+    color: white;
+}
+td{
+    color: aquamarine;
+}
